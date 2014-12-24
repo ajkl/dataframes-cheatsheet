@@ -1,14 +1,14 @@
-I have been playing a lot lately with [Julia]()
+I have been playing a lot lately with [Julia](http://julialang.org/)
 In past I have used python and R a lot for my data analysis tasks. I always tend to have some cheatsheets open for basic dataframe operations in pandas and R as its hard to make that context switch in the syntax from one language to another.
 With Julia, my brain was just not ready to accept another set of syntax.
 So I thought a quick reference comparing the basic dataframe manipulation syntax for all 3 languages would be nice.
 Most of my data tasks start with some ETL tasks on dataframes.
 
-I took this awesome tutorial by [Greg Reda]() on ["Working with DataFrames"]() and tried to port the example to all R and Julia.
+I took this awesome tutorial by [Greg Reda](http://www.gregreda.com/) on ["Working with DataFrames"](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/) and tried to port the example to all R and Julia.
 
-All the code from this post can be found at this [github repo dataframes-compare]()
+All the code from this post can be found at this [github repo dataframes-compare](https://github.com/ajkl/dataframes-cheatsheet)
 
-We start with the [MovieLens dataset](). From the README you can see :
+We start with the [MovieLens dataset](http://grouplens.org/datasets/movielens/). From the README you can see :
 
 ```
 This data set consists of:
