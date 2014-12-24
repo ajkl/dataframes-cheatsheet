@@ -8,7 +8,8 @@ I took this awesome tutorial by [Greg Reda](http://www.gregreda.com/) on ["Worki
 
 All the code from this post can be found at this [github repo dataframes-compare](https://github.com/ajkl/dataframes-cheatsheet)
 
-We start with the [MovieLens dataset](http://grouplens.org/datasets/movielens/). From the README you can see :
+We start with the [MovieLens 100k dataset](http://grouplens.org/datasets/movielens/). 
+From the README you can see :
 
 ```
 This data set consists of:
