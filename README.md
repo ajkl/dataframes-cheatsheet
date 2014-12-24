@@ -1,8 +1,8 @@
-I have been playing a lot lately with [Julia](http://julialang.org/)
-In past I have used python and R a lot for my data analysis tasks. I always tend to have some cheatsheets open for basic dataframe operations in pandas and R as its hard to make that context switch in the syntax from one language to another.
+I have been playing a lot lately with [Julia](http://julialang.org/).
+In the past I have used python and R a lot for my data analysis tasks. I always tend to have some cheatsheet in front of me for the basic dataframe operations in pandas and R. Its hard to make that context switch in the syntax from one language to another.
 With Julia, my brain was just not ready to accept another set of syntax.
 So I thought a quick reference comparing the basic dataframe manipulation syntax for all 3 languages would be nice.
-Most of my data tasks start with some ETL tasks on dataframes.
+Most of my data tasks start with some ETL tasks on dataframes. So this is more of a reference for my use in future but can be useful to others too who face the same situation.
 
 I took this awesome tutorial by [Greg Reda](http://www.gregreda.com/) on ["Working with DataFrames"](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/) and tried to port the example to all R and Julia.
 
