@@ -207,7 +207,9 @@ We can see that the ratio is around 1:2.5 between female and male users and most
 
 ## Subsetting
 
-Let try to query our data now and filter it with some conditions. 
+Lets try to query our data now and filter it with some conditions. 
+
+#### Head/Tail
 We will warmup with some top/bottom values to get a feel of the data we have at hand.
 
 
@@ -263,6 +265,8 @@ tail(movies)
 head(movies, n=3)
 ```
 
+#### Row subset
+
 Lets try to get all the rows from 50th row to the 55th row
 
 ######Julia
@@ -286,6 +290,8 @@ users[50:55]
 ```
 users[50:55,]
 ```
+
+#### Column subset
 
 You can select a single column by column name.
 
@@ -334,6 +340,8 @@ users[['occupation', 'sex', 'age']].head()
 ```
 head(users[,c('occupation', 'sex', 'age')])
 ```
+
+#### Query / Conditional subset
 
 Subsetting a dataframe based on querying a column for a condition can be achieved like this -
 
