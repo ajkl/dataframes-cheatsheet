@@ -5,6 +5,8 @@ u_col_names=[symbol("user_id"), symbol("age"), symbol("sex"), symbol("occupation
 col_names=["user_id", "age", "sex", "occupation", "zip_code"]
 u_col_names[symbol(m_col_names[i]) for i in 1:size(col_names)[1]]
 ###
+#As pointed out by Valentin and in the HN comments section the easiest way to do this is
+u_col_names=[:user_id,  :age,  :sex,  :occupation,  :zip_code]
 users = DataFrames.readtable("data/ml-100k/u.user", separator='|', header=false, names=u_col_names)
 
 eltypes(users)
