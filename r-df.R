@@ -10,6 +10,8 @@ colnames(movies) <- m_col_names
 
 class(users)
 lapply(users, class)
+#better way to get class of all columns is using str
+str(users)
 summary(users)
 
 head(movies)
